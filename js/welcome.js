@@ -31,6 +31,9 @@
     defaultStyle: '1998'
   };
 
+  // Cross-browser storage API
+  const storage = (typeof browser !== 'undefined' ? browser.storage : chrome.storage);
+
   /**
    * Initialize the welcome page functionality
    */
@@ -44,7 +47,7 @@
    */
   function loadSavedPreference() {
     try {
-      chrome.storage.sync.get(config.storageKey, function(data) {
+      storage.sync.get(config.storageKey, function(data) {
         if (data && data[config.storageKey]) {
           const savedStyle = data[config.storageKey];
           selectStyle(savedStyle);
@@ -166,7 +169,7 @@
       const selectedStyle = selectedRadio.value;
       
       try {
-        chrome.storage.sync.set({ [config.storageKey]: selectedStyle }, function() {
+        storage.sync.set({ [config.storageKey]: selectedStyle }, function() {
           showStatusMessage('Preference saved successfully!');
         });
       } catch (error) {
@@ -182,7 +185,9 @@
    * Handle visiting the OldGoogle home page
    */
   function handleVisitHome() {
-    chrome.tabs.create({ url: config.homePageUrl });
+    // Cross-browser tabs API
+    const tabs = (typeof browser !== 'undefined' ? browser.tabs : chrome.tabs);
+    tabs.create({ url: config.homePageUrl });
   }
 
   /**

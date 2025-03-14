@@ -1,8 +1,14 @@
 {
   "manifest_version": 2,
   "name": "OldGoogle Search",
-  "version": "1.0",
+  "version": "1.1",
   "description": "A search engine extension that lets you search with Google's classic designs from different years",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "oldgoogle@utano.dev",
+      "strict_min_version": "79.0"
+    }
+  },
   "icons": {
     "16": "icons/old_google_g_icon16.svg",
     "48": "icons/old_google_g_icon48.svg",
