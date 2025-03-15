@@ -2,6 +2,12 @@
 
 Experience the nostalgia of Google's classic designs right in your modern Firefox browser!
 
+<p align="center">
+  <a href="https://addons.mozilla.org/en-US/firefox/addon/oldgoogle-search/" target="_blank">
+    <img src="..." alt="Get OldGoogle Search for Firefox" />
+  </a>
+</p>
+
 ## ✨ What is OldGoogle?
 
 Remember when Google looked different? This extension brings back the charm of Google's past designs while giving you all the power of modern search. It's like time travel for your browser!
@@ -22,10 +28,16 @@ Each style faithfully recreates the Google experience from that year, from searc
 
 ## 📦 Easy Installation
 
-1. Download the extension from the Firefox Add-ons store (or install from file)
+<p align="center">
+  <a href="https://addons.mozilla.org/en-US/firefox/addon/oldgoogle-search/" target="_blank">
+    <img src="https://blog.mozilla.org/addons/files/2020/04/get-the-addon-fx-apr-2020.svg" alt="Get OldGoogle Search for Firefox" width="172" height="60">
+  </a>
+</p>
+
+1. **Quick Install**: Click the button above to go to the Firefox Add-ons page and click "Add to Firefox"
 2. After installation, a welcome page appears with a visual selection of design styles
 3. Choose your favorite nostalgic style with just one click
-4. Set OldGoogle as your default search engine in Firefox
+4. Optionally set OldGoogle as your default search engine in Firefox
 
 ## 🚀 How to Use
 

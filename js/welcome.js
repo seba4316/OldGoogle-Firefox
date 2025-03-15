@@ -26,7 +26,7 @@
 
   // Configuration
   const config = {
-    storageKey: 'oldgoogle_style_preference',
+    storageKey: 'designStyle',
     homePageUrl: 'https://oldgoogle-home/',
     defaultStyle: '1998'
   };
@@ -47,7 +47,7 @@
    */
   function loadSavedPreference() {
     try {
-      storage.sync.get(config.storageKey, function(data) {
+      storage.local.get(config.storageKey, function(data) {
         if (data && data[config.storageKey]) {
           const savedStyle = data[config.storageKey];
           selectStyle(savedStyle);
@@ -169,7 +169,7 @@
       const selectedStyle = selectedRadio.value;
       
       try {
-        storage.sync.set({ [config.storageKey]: selectedStyle }, function() {
+        storage.local.set({ [config.storageKey]: selectedStyle }, function() {
           showStatusMessage('Preference saved successfully!');
         });
       } catch (error) {
