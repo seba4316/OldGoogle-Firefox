@@ -4,7 +4,7 @@ Experience the nostalgia of Google's classic designs right in your modern Firefo
 
 <p align="center">
   <a href="https://addons.mozilla.org/en-US/firefox/addon/oldgoogle-search/" target="_blank">
-    <img src="..." alt="Get OldGoogle Search for Firefox" />
+    <img src="https://blog.mozilla.org/addons/files/2020/04/get-the-addon-fx-apr-2020.svg" alt="Get OldGoogle Search for Firefox" width="172" height="60">
   </a>
 </p>
 
@@ -27,12 +27,6 @@ Take a trip down memory lane with these classic Google designs:
 Each style faithfully recreates the Google experience from that year, from search results to the homepage!
 
 ## 📦 Easy Installation
-
-<p align="center">
-  <a href="https://addons.mozilla.org/en-US/firefox/addon/oldgoogle-search/" target="_blank">
-    <img src="https://blog.mozilla.org/addons/files/2020/04/get-the-addon-fx-apr-2020.svg" alt="Get OldGoogle Search for Firefox" width="172" height="60">
-  </a>
-</p>
 
 1. **Quick Install**: Click the button above to go to the Firefox Add-ons page and click "Add to Firefox"
 2. After installation, a welcome page appears with a visual selection of design styles
